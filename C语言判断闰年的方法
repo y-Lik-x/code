@@ -1,0 +1,13 @@
+#include <stdio.h>
+{
+    int year = 2021;
+    if(year % 4 ==0 && year % 100 !=0)
+    { 
+       printf("%s\n","今年是闰年")；
+    }
+    else
+    {
+        printf("%s\n","今年是平年")；
+    }
+    return 0;
+}
